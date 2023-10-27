@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 2
+names: ['Helmet', 'Non_Helmet']
+
+roboflow:
+  workspace: natthakorn
+  project: helmet_01
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/natthakorn/helmet_01/dataset/2
